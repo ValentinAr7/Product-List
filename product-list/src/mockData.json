@@ -1,0 +1,203 @@
+[
+    {
+      "category": "Shoes",
+      "items": [
+        {
+          "name": "Running Shoes",
+          "price": 120,
+          "shortDescription": "Comfortable and durable running shoes.",
+          "rating": 4.5,
+          "imageUrl": "http://example.com/images/running-shoes.jpg"
+        },
+        {
+          "name": "Casual Shoes",
+          "price": 85,
+          "shortDescription": "Stylish casual shoes for everyday use.",
+          "rating": 4,
+          "imageUrl": "http://example.com/images/casual-shoes.jpg"
+        },
+        {
+          "name": "Formal Shoes",
+          "price": 150,
+          "shortDescription": "Elegant formal shoes for professional attire.",
+          "rating": 4.2,
+          "imageUrl": "http://example.com/images/formal-shoes.jpg"
+        },
+        {
+          "name": "Sport Shoes",
+          "price": 95,
+          "shortDescription": "High-performance sports shoes.",
+          "rating": 4.3,
+          "imageUrl": "http://example.com/images/sport-shoes.jpg"
+        },
+        {
+          "name": "Sneakers",
+          "price": 70,
+          "shortDescription": "Versatile sneakers for a casual look.",
+          "rating": 4.4,
+          "imageUrl": "http://example.com/images/sneakers.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Clothes",
+      "items": [
+        {
+          "name": "Blue Jeans",
+          "price": 75,
+          "shortDescription": "Classic blue jeans for a casual look.",
+          "rating": 4.7,
+          "imageUrl": "http://example.com/images/blue-jeans.jpg"
+        },
+        {
+          "name": "Black T-Shirt",
+          "price": 35,
+          "shortDescription": "Basic black t-shirt for a minimalist wardrobe.",
+          "rating": 4.6,
+          "imageUrl": "http://example.com/images/black-tshirt.jpg"
+        },
+        {
+          "name": "Red Dress",
+          "price": 120,
+          "shortDescription": "Stunning red dress for special occasions.",
+          "rating": 4.8,
+          "imageUrl": "http://example.com/images/red-dress.jpg"
+        },
+        {
+          "name": "White Shirt",
+          "price": 50,
+          "shortDescription": "Crisp white shirt for a professional look.",
+          "rating": 4.5,
+          "imageUrl": "http://example.com/images/white-shirt.jpg"
+        },
+        {
+          "name": "Green Jacket",
+          "price": 90,
+          "shortDescription": "Warm green jacket for colder days.",
+          "rating": 4.4,
+          "imageUrl": "http://example.com/images/green-jacket.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Watches",
+      "items": [
+        {
+          "name": "Silver Watch",
+          "price": 300,
+          "shortDescription": "Elegant silver watch with a timeless design.",
+          "rating": 4.9,
+          "imageUrl": "http://example.com/images/silver-watch.jpg"
+        },
+        {
+          "name": "Sports Watch",
+          "price": 250,
+          "shortDescription": "Durable sports watch with multiple functionalities.",
+          "rating": 4.8,
+          "imageUrl": "http://example.com/images/sports-watch.jpg"
+        },
+        {
+          "name": "Gold Watch",
+          "price": 500,
+          "shortDescription": "Luxurious gold watch for special occasions.",
+          "rating": 4.7,
+          "imageUrl": "http://example.com/images/gold-watch.jpg"
+        },
+        {
+          "name": "Black Watch",
+          "price": 350,
+          "shortDescription": "Sleek black watch for a modern look.",
+          "rating": 4.6,
+          "imageUrl": "http://example.com/images/black-watch.jpg"
+        },
+        {
+          "name": "White Watch",
+          "price": 200,
+          "shortDescription": "Minimalist white watch for everyday use.",
+          "rating": 4.5,
+          "imageUrl": "http://example.com/images/white-watch.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Phones",
+      "items": [
+        {
+          "name": "Smartphone X",
+          "price": 1000,
+          "shortDescription": "Latest Smartphone X with amazing features.",
+          "rating": 4.3,
+          "imageUrl": "http://example.com/images/smartphoneX.jpg"
+        },
+        {
+          "name": "Smartphone Y",
+          "price": 900,
+          "shortDescription": "Affordable Smartphone Y with a great battery life.",
+          "rating": 4.2,
+          "imageUrl": "http://example.com/images/smartphoneY.jpg"
+        },
+        {
+          "name": "Smartphone Z",
+          "price": 800,
+          "shortDescription": "Smartphone Z with a stunning display.",
+          "rating": 4.4,
+          "imageUrl": "http://example.com/images/smartphoneZ.jpg"
+        },
+        {
+          "name": "Smartphone A",
+          "price": 700,
+          "shortDescription": "Budget-friendly Smartphone A with essential features.",
+          "rating": 4.1,
+          "imageUrl": "http://example.com/images/smartphoneA.jpg"
+        },
+        {
+          "name": "Smartphone B",
+          "price": 600,
+          "shortDescription": "Reliable Smartphone B with a powerful processor.",
+          "rating": 4.0,
+          "imageUrl": "http://example.com/images/smartphoneB.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Bags",
+      "items": [
+        {
+          "name": "Leather Bag",
+          "price": 150,
+          "shortDescription": "Handmade leather bag with lots of space.",
+          "rating": 4.4,
+          "imageUrl": "http://example.com/images/leather-bag.jpg"
+        },
+        {
+          "name": "Sports Bag",
+          "price": 100,
+          "shortDescription": "Convenient sports bag for your workout gear.",
+          "rating": 4.1,
+          "imageUrl": "http://example.com/images/sports-bag.jpg"
+        },
+        {
+          "name": "Backpack",
+          "price": 75,
+          "shortDescription": "Versatile backpack for school or work.",
+          "rating": 4.3,
+          "imageUrl": "http://example.com/images/backpack.jpg"
+        },
+        {
+          "name": "Handbag",
+          "price": 200,
+          "shortDescription": "Stylish handbag for any occasion.",
+          "rating": 4.6,
+          "imageUrl": "http://example.com/images/handbag.jpg"
+        },
+        {
+          "name": "Briefcase",
+          "price": 180,
+          "shortDescription": "Professional briefcase for business travel.",
+          "rating": 4.5,
+          "imageUrl": "http://example.com/images/briefcase.jpg"
+        }
+      ]
+    }
+  ]
+  
