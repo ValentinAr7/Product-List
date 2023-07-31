@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #141920;
+    background-color: var(--primary-color);
 }
   
   .logo {
     flex: 1;
-    color: white;
+    color: var(--white-color);
     font-size: 24px;
     font-style: italic;
     font-weight: bold;
@@ -38,6 +38,6 @@
     font-size: 30px;
     justify-content: flex-end;
     padding-right: 2%;
-    color: white;
+    color: var(--white-color);
   }
   

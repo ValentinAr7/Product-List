@@ -6,8 +6,8 @@
           "name": "Running Shoes",
           "price": 120,
           "shortDescription": "Comfortable and durable running shoes.",
-          "rating": 4.5,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.1JNKZCzkbRdxmg_mSHhNuAHaEL&pid=Api&P=0&h=180"
+          "rating": 3.7,
+          "imageUrl": "https://i5.walmartimages.com/asr/5829b956-2747-4111-a1f5-8cf480dd8458_1.2369644d6071452ec1a4c487e046326a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         },
         {
           "name": "Casual Shoes",
@@ -46,8 +46,8 @@
           "name": "Blue Jeans",
           "price": 75,
           "shortDescription": "Classic blue jeans for a casual look.",
-          "rating": 4.7,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.q1RpEs1rA0H18NGdorgRDAHaJ4&pid=Api&P=0&h=180"
+          "rating": 2.8,
+          "imageUrl": "https://www.circle-fashion.com/images/dsquared-cool-guy-jeans-blue-p37630-30973_medium.jpg"
         },
         {
           "name": "Black T-Shirt",
@@ -87,7 +87,7 @@
           "price": 300,
           "shortDescription": "Elegant silver watch with a timeless design.",
           "rating": 4.9,
-          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.WxPqoRolB-uLXnJPrn6oMQHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.bobswatches.com/images/Mens-Rolex-Datejust-116334--109434.jpg"
         },
         {
           "name": "Sports Watch",
@@ -127,7 +127,7 @@
           "price": 1000,
           "shortDescription": "Latest Smartphone X with amazing features.",
           "rating": 4.3,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.9trvE-G7OssSuqYiIHzeYwHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://i5.walmartimages.com/asr/13a41fc4-9541-43f5-a570-aac441f05a19_1.34ee2acd55369419919e101b037ed47a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         },
         {
           "name": "Smartphone Y",
@@ -167,7 +167,7 @@
           "price": 150,
           "shortDescription": "Handmade leather bag with lots of space.",
           "rating": 4.4,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.x9m9RgX1yBdXQzTCB1G03wHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.worldsbest.com/uploads/styles/large/public/58/31434/1518087879.jpg?itok=eT4MhsyP"
         },
         {
           "name": "Sports Bag",
