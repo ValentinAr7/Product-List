@@ -1,0 +1,18 @@
+.header{
+    padding: 0 20%;
+    background-color: #445165;
+}
+
+.subHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 1% 4%;
+    background-color: #445165;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight:600;
+  }
