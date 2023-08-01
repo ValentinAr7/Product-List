@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
-import styles from './products.module.css';
+import styles from './recomendations.module.css';
 import data from '../../mockData.json';
 
 const ProductCard = ({ product }) => {
@@ -11,8 +11,8 @@ const ProductCard = ({ product }) => {
   return (
     <div className={styles.card}>
       <img variant="top" className={styles.cardImg} src={product.imageUrl} />
-      <div className={styles.cardBody}>
-        <h3 className={styles.title}>{product.name}</h3>
+      <div className={styles.cardContent}>
+        <h3 className={styles.productTitle}>{product.name}</h3>
         <p className={styles.description}>{product.shortDescription}</p>
         <div className={styles.addToCart}>
           <button className={styles.btn}>
@@ -40,7 +40,7 @@ const RecommendedProducts = () => {
 
   return (
     <div className={styles.recommended}>
-      <h2>Recommended Products</h2>
+      <h2 className={styles.title}>Recommended Products</h2>
       <div className={styles.carouselContainer}>
         {recommendedProducts.map((product, index) => (
           <div className={styles.carouselItem} key={index}>

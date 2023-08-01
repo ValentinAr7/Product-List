@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 90%;
+  padding: 0 10%;
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: url('https://indiater.com/wp-content/uploads/2019/05/1.jpg')
+    no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  color: var(--white-color);
+  border-radius: 10px;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardContent {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}

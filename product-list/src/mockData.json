@@ -5,7 +5,7 @@
         {
           "name": "Running Shoes",
           "price": 120,
-          "shortDescription": "Comfortable and durable running shoes.",
+          "shortDescription": "Comfortable and durable running shoes for everyday use.",
           "rating": 3.7,
           "imageUrl": "https://i5.walmartimages.com/asr/5829b956-2747-4111-a1f5-8cf480dd8458_1.2369644d6071452ec1a4c487e046326a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         },
@@ -45,7 +45,7 @@
         {
           "name": "Blue Jeans",
           "price": 75,
-          "shortDescription": "Classic blue jeans for a casual look.",
+          "shortDescription": "Classic blue jeans for a casual look and confidence.",
           "rating": 2.8,
           "imageUrl": "https://www.circle-fashion.com/images/dsquared-cool-guy-jeans-blue-p37630-30973_medium.jpg"
         },
@@ -200,4 +200,8 @@
       ]
     }
   ]
+
+
+
+  
   
