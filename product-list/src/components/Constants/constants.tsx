@@ -19,3 +19,7 @@ export const sections = {
     phones: "Phones",
     bags: "Bags"
 }
+
+export const logo = {
+    logo: "C4 Nexus"
+}
