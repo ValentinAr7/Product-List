@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
     <div className={styles.card}>
       <img variant="top" className={styles.cardImg} src={product.imageUrl} />
       <div className={styles.cardContent}>
-        <h3 className={styles.productTitle}>{product.name}</h3>
+        <h3 className={styles.productTitle}>{product.name.toUpperCase()}</h3>
         <p className={styles.description}>{product.shortDescription}</p>
         <div className={styles.addToCart}>
           <button className={styles.btn}>

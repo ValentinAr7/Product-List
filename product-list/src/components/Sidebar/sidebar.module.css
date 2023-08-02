@@ -1,8 +1,7 @@
 .sidebar {
-  flex: 1;
   padding: 1em;
   border-right: 1px solid #ccc;
-  width: 600px;
+  width: 700px;
   height: 100vh;
 }
 

@@ -4,7 +4,7 @@ import Subheading from '../Subheading/Subheading';
 
 const Header = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.headerSection}>
         <div className={styles.header}>
           <div className={styles.logo}>

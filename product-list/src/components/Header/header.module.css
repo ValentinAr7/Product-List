@@ -1,43 +1,48 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-  
-  .logo {
-    flex: 1;
-    color: var(--white-color);
-    font-size: 24px;
-    font-style: italic;
-    font-weight: bold;
-    padding-left: 2%;
-  }
-  
-  .search {
-    flex: 2;
-    position: relative;
-  }
-  
-  .searchIcon {
-    position: absolute;
-    top: 50%;
-    right: 2%;
-    font-size: 20px;
-    transform: translateY(-50%);
-  }
-  
-  .searchBar {
-    width: 100%;
-    padding: 8px 10px;
-  }  
-  
-  .profile {
-    flex: 1;
-    display: flex;
-    font-size: 30px;
-    justify-content: flex-end;
-    padding-right: 2%;
-    color: var(--white-color);
-  }
-  
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.logo {
+  flex: 1;
+  color: var(--white-color);
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 2%;
+}
+
+.search {
+  flex: 2;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  font-size: 20px;
+  transform: translateY(-50%);
+}
+
+.searchBar {
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.profile {
+  flex: 1;
+  display: flex;
+  font-size: 30px;
+  justify-content: flex-end;
+  padding-right: 2%;
+  color: var(--white-color);
+}

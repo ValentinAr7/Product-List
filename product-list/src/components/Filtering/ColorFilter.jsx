@@ -1,6 +1,6 @@
 import styles from './filter.module.css';
 
-const ColorFilter = ({ handleFilterChange }) => {
+const ColorFilter = ({ handleColorChange }) => {
   return (
     <div className={styles.container}>
       <h3 className={styles.title}>Color</h3>
@@ -8,26 +8,26 @@ const ColorFilter = ({ handleFilterChange }) => {
         <input
           type="checkbox"
           id="color1"
-          value="red"
-          onChange={handleFilterChange}
+          value="black"
+          onChange={handleColorChange}
         />
-        <label htmlFor="color1">Red</label>
+        <label htmlFor="color1">Black</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
           type="checkbox"
           id="color2"
-          value="green"
-          onChange={handleFilterChange}
+          value="white"
+          onChange={handleColorChange}
         />
-        <label htmlFor="color2">Green</label>
+        <label htmlFor="color2">White</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
           type="checkbox"
           id="color3"
           value="blue"
-          onChange={handleFilterChange}
+          onChange={handleColorChange}
         />
         <label htmlFor="color3">Blue</label>
       </div>

@@ -1,6 +1,7 @@
 [
     {
       "category": "Shoes",
+      "categoryDescription": "Good footwear can be the pinnacle of any outfit which is why we have a huge selection of designer shoes, boots and trainers for men. It doesn’t matter whether it is a formal or casual occasion, with a comprehensive range of styles from some of the world’s leading brands. We're sure we have the perfect designer shoes for you. Take a look at the huge collection below.",
       "items": [
         {
           "name": "Running Shoes",
@@ -41,46 +42,133 @@
     },
     {
       "category": "Clothes",
+      "categoryDescription": "Here in the clothing department where you can be sure to find everything you need for the weeks and months ahead. With all the latest must have clothing from all the top brands. From a stylish jacket, polo, and jeans combo, to a sharp 3 piece suit it’s all here, so take your time, explore, and shop the cool, stylish, and on trend collections below.",
       "items": [
         {
-          "name": "Blue Jeans",
+          "name": "Represent T-shirt",
+          "color": "white",
           "price": 75,
-          "shortDescription": "Classic blue jeans for a casual look and confidence.",
+          "shortDescription": "Crafted from 100% cotton for a soft quality finish, a regular fit ribbed crew neckline.",
           "rating": 2.8,
-          "imageUrl": "https://www.circle-fashion.com/images/dsquared-cool-guy-jeans-blue-p37630-30973_medium.jpg"
+          "imageUrl": "https://www.cruisefashion.com/images/products/58461501_l.jpg"
         },
         {
-          "name": "Black T-Shirt",
+          "name": "Zipped Overshirt",
+          "color": "gray",
           "price": 35,
-          "shortDescription": "Basic black t-shirt for a minimalist wardrobe.",
+          "shortDescription": "Crafted from a classic gabardine cotton this piece is both hard wearing and breathable. ",
           "rating": 4.6,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.D8uxRoHv5LW8JYE8Fr3jBAHaIs&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/60712774_l.jpg"
         },
         {
-          "name": "Red Shirt",
+          "name": "Cargo Trausers",
+          "color": "black",
           "price": 120,
-          "shortDescription": "Stunning red shirt for special occasions.",
-          "rating": 4.8,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.fm-rLJIAm4B1mMXM998-OQHaJc&pid=Api&P=0&h=180"
+          "shortDescription": "Ergonomic Fit Cargo Trousers. Crafted in a soft cotton/elastane mix fabric.",
+          "rating": 3.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/51041103_l.jpg"
         },
         {
-          "name": "White Shirt",
+          "name": "Blue T-Shirt",
+          "color": "blue",
           "price": 50,
-          "shortDescription": "Crisp white shirt for a professional look.",
+          "shortDescription": "Crafted from cotton, this t shirt is cut in a regular fit and features a classic ribbed crew.",
           "rating": 4.5,
-          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.eLnZ3FU8agU5sBLxIRaSgAHaJQ&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/59412658_l.jpg"
         },
         {
-          "name": "Green Jacket",
-          "price": 90,
-          "shortDescription": "Warm green jacket for colder days.",
+          "name": "White Jacket",
+          "color": "white",
+          "price": 340,
+          "shortDescription": "Constructed in a soft polyester mix material, this is a breathable and water resistant jacket.",
+          "rating": 1.1,
+          "imageUrl": "https://www.cruisefashion.com/images/products/60856801_l.jpg"
+        },
+        {
+          "name": "blue and white jeans",
+          "color": "blue",
+          "price": 169,
+          "shortDescription": " Crafted from a pure cotton fabrication, this straight leg jeans is defined in a denim finish.",
+          "rating": 4.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/64038318_l.jpg"
+        },
+        {
+          "name": "Winter jacket",
+          "color": "blue",
+          "price": 520,
+          "shortDescription": "Crafted in a soft cotton material, this jacket is cut in a regular fit and features a high neckline.",
+          "rating": 4.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/60273519_l.jpg"
+        },
+        {
+          "name": "Shark T-shirt",
+          "color": "black",
+          "price": 80,
+          "shortDescription": "The red and black shark print creates an eye catching look and a bold contrast.",
+          "rating": 4.9,
+          "imageUrl": "https://www.cruisefashion.com/images/products/59551303_l.jpg"
+        },
+        {
+          "name": "Blue T-Shirt",
+          "color": "white",
+          "price": 70,
+          "shortDescription": " Designed in a classic colour way from 100% cotton it is a great T-Shirt.",
+          "rating": 1.4,
+          "imageUrl": "https://www.cruisefashion.com/images/products/57777201_l.jpg"
+        },
+        {
+          "name": "Black T-shirt",
+          "color": "black",
+          "price": 105,
+          "shortDescription": "Constructed in a soft polyester mix material, this is a great T-shirt for summer.",
           "rating": 4.4,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.m7ZOcWbOiV4nq42GM3u3GQHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/57777003_l.jpg"
+        },
+        {
+          "name": "Represent T-shirt",
+          "color": "gray",
+          "price": 75,
+          "shortDescription": "Crafted from 100% cotton for a soft quality finish, a regular fit ribbed crew neckline.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/58461501_l.jpg"
+        },
+        {
+          "name": "Zipped Overshirt",
+          "color": "gray",
+          "price": 35,
+          "shortDescription": "Crafted from a classic gabardine cotton this piece is both hard wearing and breathable. ",
+          "rating": 4.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/60712774_l.jpg"
+        },
+        {
+          "name": "Cargo Trausers",
+          "color": "black",
+          "price": 120,
+          "shortDescription": "Ergonomic Fit Cargo Trousers. Crafted in a soft cotton/elastane mix fabric.",
+          "rating": 3.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/51041103_l.jpg"
+        },
+        {
+          "name": "Blue T-Shirt",
+          "color": "blue",
+          "price": 50,
+          "shortDescription": "Crafted from cotton, this t shirt is cut in a regular fit and features a classic ribbed crew.",
+          "rating": 4.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/59412658_l.jpg"
+        },
+        {
+          "name": "White Jacket",
+          "color": "white",
+          "price": 380,
+          "shortDescription": "Constructed in a soft polyester mix material, this is a breathable and water resistant jacket.",
+          "rating": 1.1,
+          "imageUrl": "https://www.cruisefashion.com/images/products/60856801_l.jpg"
         }
       ]
     },
     {
       "category": "Watches",
+      "categoryDescription": "A great watch is a wardrobe essential. Never more so is there a case of where function meet fashion. So take a look at our range of digital and analogue watches below from some of the world's most exclusive designers, and choose a stylish timepiece that will quite literally stand the test of time for years to come.",
       "items": [
         {
           "name": "Silver Watch",
@@ -121,6 +209,7 @@
     },
     {
       "category": "Phones",
+      "categoryDescription": "Discover the latest and greatest smartphones in our extensive collection. Stay connected and informed with cutting-edge technology, sleek designs, and powerful features. Whether you're looking for a top-of-the-line flagship model or a budget-friendly option, we have a wide range of smartphones to suit your needs. ",
       "items": [
         {
           "name": "Smartphone X",
@@ -161,6 +250,7 @@
     },
     {
       "category": "Bags",
+      "categoryDescription": "Elevate your style with our exquisite collection of women's bags. Discover the perfect blend of fashion and functionality as you explore our diverse range of handbags, totes, clutches, backpacks, and more. From timeless classics to trendy designs, our bags are crafted with attention to detail and quality materials, catering to every occasion and outfit.",
       "items": [
         {
           "name": "Leather Bag",
