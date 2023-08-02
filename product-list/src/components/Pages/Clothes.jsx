@@ -4,6 +4,7 @@ import styles from './clothes.module.css';
 import data from '../../mockData.json';
 import Sidebar from '../Sidebar/Sidebar';
 import Sorting from '../Sorting/Sorting';
+import { sections } from '../Constants/constants';
 
 const Clothes = () => {
   const clothesData = data.find(section => section.category === 'Clothes');
@@ -97,7 +98,7 @@ const Clothes = () => {
       <div className={styles.recommended}>
         <div className={styles.sortingContainer}>
           <div className={styles.productDescription}>
-            <h2 className={styles.title}>Clothes</h2>
+            <h2 className={styles.title}>{sections.clothes}</h2>
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />

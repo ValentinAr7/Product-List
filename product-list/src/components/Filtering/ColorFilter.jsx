@@ -1,4 +1,5 @@
 import styles from './filter.module.css';
+import { filterColors } from '../Constants/constants';
 
 const ColorFilter = ({ handleColorChange }) => {
   return (
@@ -8,28 +9,28 @@ const ColorFilter = ({ handleColorChange }) => {
         <input
           type="checkbox"
           id="color1"
-          value="black"
+          value={filterColors.black}
           onChange={handleColorChange}
         />
-        <label htmlFor="color1">Black</label>
+        <label htmlFor="color1">{filterColors.black}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
           type="checkbox"
           id="color2"
-          value="white"
+          value={filterColors.white}
           onChange={handleColorChange}
         />
-        <label htmlFor="color2">White</label>
+        <label htmlFor="color2">{filterColors.white}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
           type="checkbox"
           id="color3"
-          value="blue"
+          value={filterColors.blue}
           onChange={handleColorChange}
         />
-        <label htmlFor="color3">Blue</label>
+        <label htmlFor="color3">{filterColors.blue}</label>
       </div>
     </div>
   );

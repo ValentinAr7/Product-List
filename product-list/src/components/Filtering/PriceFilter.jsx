@@ -1,4 +1,5 @@
 import styles from './filter.module.css';
+import { filterPrices } from '../Constants/constants';
 
 const PriceFilter = ({ handlePriceChange = {} }) => {
   return (
@@ -11,7 +12,7 @@ const PriceFilter = ({ handlePriceChange = {} }) => {
           value="50"
           onChange={handlePriceChange}
         />
-        <label htmlFor="range1">$0 - $50</label>
+        <label htmlFor="range1">{filterPrices.range1}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
@@ -20,7 +21,7 @@ const PriceFilter = ({ handlePriceChange = {} }) => {
           value="150"
           onChange={handlePriceChange}
         />
-        <label htmlFor="range2">$50 - $150</label>
+        <label htmlFor="range2">{filterPrices.range2}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
@@ -29,7 +30,7 @@ const PriceFilter = ({ handlePriceChange = {} }) => {
           value="300"
           onChange={handlePriceChange}
         />
-        <label htmlFor="range3">$150 - $300</label>
+        <label htmlFor="range3">{filterPrices.range3}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
@@ -38,7 +39,7 @@ const PriceFilter = ({ handlePriceChange = {} }) => {
           value="500"
           onChange={handlePriceChange}
         />
-        <label htmlFor="range4">$300 - $500</label>
+        <label htmlFor="range4">{filterPrices.range4}</label>
       </div>
       <div className={styles.checkboxContainer}>
         <input
@@ -47,7 +48,7 @@ const PriceFilter = ({ handlePriceChange = {} }) => {
           value="1000"
           onChange={handlePriceChange}
         />
-        <label htmlFor="range5">$500 - $1000</label>
+        <label htmlFor="range5">{filterPrices.range5}</label>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import RecommendedProducts from './components/Recommendations/Recomendations';
 import Categories from './components/Categories/Categories';
 import Clothes from './components/Pages/Clothes';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           />
           <Route path="/clothes" element={<Clothes />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
