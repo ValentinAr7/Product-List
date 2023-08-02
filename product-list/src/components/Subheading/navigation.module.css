@@ -1,18 +1,18 @@
-.header{
-    padding: 0 20%;
-    background-color: var(--secondary-color);
+.header {
+  padding: 8px 20%;
+  background-color: var(--secondary-color);
 }
 
 .subHeader {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .btn {
-    padding: 1% 4%;
-    background-color: var(--secondary-color);
-    border: none;
-    color: var(--white-color);
-    font-size: 16px;
-    font-weight:600;
-  }
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1% 4%;
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+}

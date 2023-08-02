@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import ProductCard from '../ProductCard/ProductCard';
-import styles from './clothes.module.css';
-import data from '../../mockData.json';
-import Sidebar from '../Sidebar/Sidebar';
-import Sorting from '../Sorting/Sorting';
-import { sections } from '../Constants/constants';
+import ProductCard from '../../ProductCard/ProductCard';
+import styles from './shoes.module.css';
+import data from '../../../mockData.json';
+import Sidebar from '../../Sidebar/Sidebar';
+import Sorting from '../../Sorting/Sorting';
+import { sections } from '../../Constants/constants';
 
-const Clothes = () => {
-  const clothesData = data.find(section => section.category === 'Clothes');
-  const clothesItems = clothesData.items;
-  const categoryDescription = clothesData.categoryDescription;
+const Shoes = () => {
+  const shoesData = data.find(section => section.category === 'Shoes');
+  const shoesItems = shoesData.items;
+  const categoryDescription = shoesData.categoryDescription;
 
   const [sortingOption, setSortingOption] = useState('az');
   const [visibleProducts, setVisibleProducts] = useState(8);
@@ -58,16 +58,16 @@ const Clothes = () => {
     }
   };
 
-  const sortedClothesItems = [...clothesItems].sort(sortProducts);
+  const sortedshoesItems = [...shoesItems].sort(sortProducts);
 
   const loadMoreProducts = () => {
     setVisibleProducts(prev => prev + productsPerLoad);
   };
 
   const productDescription =
-    clothesItems.length > 0 ? clothesItems[0].shortDescription : '';
+    shoesItems.length > 0 ? shoesItems[0].shortDescription : '';
 
-  const filteredClothesItems = sortedClothesItems.filter(
+  const filteredshoesItems = sortedshoesItems.filter(
     product =>
       (selectedColors[product.color] ||
         !Object.values(selectedColors).some(Boolean)) &&
@@ -98,13 +98,13 @@ const Clothes = () => {
       <div className={styles.recommended}>
         <div className={styles.sortingContainer}>
           <div className={styles.productDescription}>
-            <h2 className={styles.title}>{sections.clothes}</h2>
+            <h2 className={styles.title}>{sections.shoes}</h2>
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />
         </div>
         <div className={styles.carouselContainer}>
-          {filteredClothesItems
+          {filteredshoesItems
             .slice(0, visibleProducts)
             .map((product, index) => (
               <div className={styles.carouselItem} key={index}>
@@ -112,7 +112,7 @@ const Clothes = () => {
               </div>
             ))}
         </div>
-        {visibleProducts < sortedClothesItems.length && (
+        {visibleProducts < sortedshoesItems.length && (
           <div className={styles.loadMoreContainer}>
             <button
               className={styles.loadMoreButton}
@@ -126,4 +126,4 @@ const Clothes = () => {
     </div>
   );
 };
-export default Clothes;
+export default Shoes;

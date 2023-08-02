@@ -5,38 +5,123 @@
       "items": [
         {
           "name": "Running Shoes",
+          "color": "blue",
           "price": 120,
-          "shortDescription": "Comfortable and durable running shoes for everyday use.",
+          "shortDescription": "Comfortable and durable running shoes for everyday use good for denim jeans.",
           "rating": 3.7,
-          "imageUrl": "https://i5.walmartimages.com/asr/5829b956-2747-4111-a1f5-8cf480dd8458_1.2369644d6071452ec1a4c487e046326a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+          "imageUrl": "https://www.cruisefashion.com/images/products/11715519_l.jpg"
         },
         {
           "name": "Casual Shoes",
-          "price": 85,
-          "shortDescription": "Stylish casual shoes for everyday use.",
-          "rating": 4,
-          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.EKmY9kWDg82JW-nrlVFrfwHaEp&pid=Api&P=0&h=180"
+          "color": "gray",
+          "price": 385,
+          "shortDescription": "Stylish casual shoes perfect for everyday use with famouse monogram.",
+          "rating": 4.9,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11744202_l.jpg"
         },
         {
-          "name": "Formal Shoes",
+          "name": "Sports Shoes",
+          "color": "black",
           "price": 150,
-          "shortDescription": "Elegant formal shoes for professional attire.",
-          "rating": 4.2,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.P8ZT62_FbSSQ0rfq5NN2EQHaE8&pid=Api&P=0&h=180"
+          "shortDescription": "Sports shoes with mesh and rubber, very comfortable for every day use",
+          "rating": 2.7,
+          "imageUrl": "https://www.cruisefashion.com/images/products/21138503_l.jpg"
         },
         {
           "name": "Sport Shoes",
+          "color": "black",
           "price": 95,
-          "shortDescription": "High-performance sports shoes.",
-          "rating": 4.3,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.H-lQdVi6LLX8ZcZtkuFmmQHaFP&pid=Api&P=0&h=180"
+          "shortDescription": "Crafted with a central lace fastening, a padded ankle collar, and a cushioned insole. ",
+          "rating": 3.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11847641_l.jpg"
         },
         {
           "name": "Sneakers",
-          "price": 70,
-          "shortDescription": "Versatile sneakers for a casual look.",
+          "color": "white",
+          "price": 270,
+          "shortDescription": "Crafted from a premium smooth grain leather, this pair comes boasting a contrasting leather.",
           "rating": 4.4,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.eN6WB2P1PF2EjWJjLjL-ogHaFM&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/11581789_l.jpg"
+        },
+        {
+          "name": "Running Shoes",
+          "color": "white",
+          "price": 170,
+          "shortDescription": "Comfortable and durable running shoes for everyday use good for denim jeans.",
+          "rating": 2.7,
+          "imageUrl": "https://www.cruisefashion.com/images/products/12633404_l.jpg"
+        },
+        {
+          "name": "Tennis Shoes",
+          "color": "blue",
+          "price": 145,
+          "shortDescription": "The 9060 is a refined and innovative design, reinterpreting previous designs.",
+          "rating": 4.9,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11922818_l.jpg"
+        },
+        {
+          "name": "Basketball Shoes",
+          "color": "black",
+          "price": 750,
+          "shortDescription": "High basketball sneakers, designed with a canvas and Demtra upper.",
+          "rating": 4.7,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11025240_l.jpg"
+        },
+        {
+          "name": "Casual Shoes",
+          "color": "white",
+          "price": 455,
+          "shortDescription": "Sean Sneakers are a cult staple for your everyday footwear collection.",
+          "rating": 3.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11829269_l.jpg"
+        },
+        {
+          "name": "Sneakers",
+          "color": "black",
+          "price": 270,
+          "shortDescription": "Crafted with breathable mesh and leather accents to the upper silhouette",
+          "rating": 4.4,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11755503_l.jpg"
+        },
+        {
+          "name": "Running Shoes",
+          "color": "white",
+          "price": 170,
+          "shortDescription": "Comfortable and durable running shoes for everyday use good for denim jeans.",
+          "rating": 2.7,
+          "imageUrl": "https://www.cruisefashion.com/images/products/12633404_l.jpg"
+        },
+        {
+          "name": "Outdoor Shoes",
+          "color": "black",
+          "price": 145,
+          "shortDescription": "The 9060 is a refined and innovative design, reinterpreting previous designs.",
+          "rating": 4.2,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11657203_l.jpg"
+        },
+        {
+          "name": "Outdoor Shoes",
+          "color": "blue",
+          "price": 320,
+          "shortDescription": "Beautifull blue sneakers, designed with a canvas and Demtra upper mesh.",
+          "rating": 4.7,
+          "imageUrl": "https://www.cruisefashion.com/images/products/11974318_l.jpg"
+        },
+        {
+          "name": "Casual Shoes",
+          "color": "blue",
+          "price": 45,
+          "shortDescription": "Update your training apparel footwear with the Cloud X 3 Shift Running.",
+          "rating": 3.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/12611118_l.jpg"
+        },
+        {
+          "name": "Sneakers",
+          "color": "black",
+          "price": 130,
+          "shortDescription": "Crafted with breathable mesh and leather accents to the upper silhouette",
+          "rating": 2.4,
+          "imageUrl": "https://www.cruisefashion.com/images/products/12563203_l.jpg"
         }
       ]
     },
@@ -172,38 +257,130 @@
       "items": [
         {
           "name": "Silver Watch",
-          "price": 300,
-          "shortDescription": "Elegant silver watch with a timeless design.",
-          "rating": 4.9,
-          "imageUrl": "https://www.bobswatches.com/images/Mens-Rolex-Datejust-116334--109434.jpg"
-        },
-        {
-          "name": "Sports Watch",
-          "price": 250,
-          "shortDescription": "Durable sports watch with multiple functionalities.",
-          "rating": 4.8,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.-2sivMuCSmzZt7L1JDP6OAHaHa&pid=Api&P=0&h=180"
+          "color": "white",
+          "price": 220,
+          "shortDescription": "Gents chronograph from the Troper family. Featuring a 44mm stainless steel case.",
+          "rating": 3.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76873811_l.jpg"
         },
         {
           "name": "Gold Watch",
-          "price": 500,
-          "shortDescription": "Luxurious gold watch for special occasions.",
-          "rating": 4.7,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.d985bOMy4UOUzBKKyd0TkQHaHJ&pid=Api&P=0&h=180"
+          "color": "white",
+          "price": 340,
+          "shortDescription": "Crafted from a stainless steel with a polished finish, this watch is defined with a black dial.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/75334710_l.jpg"
         },
         {
           "name": "Black Watch",
-          "price": 350,
-          "shortDescription": "Sleek black watch for a modern look.",
-          "rating": 4.6,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.IMDBIS4zDHwIo0FKMHWjsAHaJE&pid=Api&P=0&h=180"
+          "color": "black",
+          "price": 140,
+          "shortDescription": "Featuring a 46mm black IP case, multifunction movement, black dial and black IP bracelet.",
+          "rating": 4.2,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76874603_l.jpg"
         },
         {
-          "name": "White Watch",
-          "price": 200,
-          "shortDescription": "Minimalist white watch for everyday use.",
+          "name": "Sports Watch",
+          "color": "black",
+          "price": 120,
+          "shortDescription": "GMW-B5000TVA-1 Titanium Virtual Armour limited edition timepiece with mechanism.",
+          "rating": 4.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76854703_l.jpg"
+        },
+        {
+          "name": "Black Sports Watch",
+          "color": "black",
+          "price": 540,
+          "shortDescription": "Featuring a 44mm black IP case, black dial and black leather strap with brown silicone.",
+          "rating": 3.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76873103_l.jpg"
+        },
+        {
+          "name": "Elegant Watch",
+          "color": "blue",
+          "price": 740,
+          "shortDescription": "Featuring a 44mm black IP case, black dial and black leather strap with brown silicone.",
           "rating": 4.5,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.i3TfhtduGqhK4du--WwOQwHaI5&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/98581503_l.jpg"
+        },
+        {
+          "name": "Blue dial Watch",
+          "color": "white",
+          "price": 280,
+          "shortDescription": "Gents chronograph from the Troper family. Featuring a 44mm stainless steel case.",
+          "rating": 3.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70974111_l.jpg"
+        },
+        {
+          "name": "Blue Medusa Watch",
+          "color": "blue",
+          "price": 540,
+          "shortDescription": "Crafted with leather strap, with anti-reflective sapphire crystal to protect against the scratches.",
+          "rating": 3.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/99083199_l.jpg"
+        },
+        {
+          "name": "Sports Watch",
+          "color": "black",
+          "price": 840,
+          "shortDescription": "With its advanced structure, the module is protected by a carbon-reinforced case.",
+          "rating": 4.2,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76854503_l.jpg"
+        },
+        {
+          "name": "Plein Sport Watch",
+          "color": "black",
+          "price": 920,
+          "shortDescription": "High end fashion plein sport watch with military case for everyday use.",
+          "rating": 2.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70271440_l.jpg"
+        },
+        {
+          "name": "Black Sports Watch",
+          "color": "white",
+          "price": 140,
+          "shortDescription": "Featuring a 44mm black IP case, black dial and black leather strap with brown silicone.",
+          "rating": 3.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76852611_l.jpg"
+        },
+        {
+          "name": "Sports Watch",
+          "color": "blue",
+          "price": 170,
+          "shortDescription": "Introducing the first full-metal addition to the continually evolving 2100 line of timepieces",
+          "rating": 4.5,
+          "imageUrl": "https://www.cruisefashion.com/images/products/98581503_l.jpg"
+        },  {
+          "name": "Sports Watch",
+          "color": "black",
+          "price": 220,
+          "shortDescription": "Introducing the latest addition to the Master of G land series, which have a shock recistance.",
+          "rating": 3.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76853503_l.jpg"
+        },
+        {
+          "name": "Gold Watch",
+          "color": "white",
+          "price": 340,
+          "shortDescription": "Crafted from a stainless steel with a polished finish, this watch is defined with a black dial.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/75555569_l.jpg"
+        },
+        {
+          "name": "Blue Dial Watch",
+          "color": "blue",
+          "price": 160,
+          "shortDescription": "Featuring a 46mm black IP case, multifunction movement, black dial and black IP bracelet.",
+          "rating": 4.2,
+          "imageUrl": "https://www.cruisefashion.com/images/products/99083199_l.jpg"
+        },
+        {
+          "name": "Blue Dial Watch",
+          "color": "blue",
+          "price": 170,
+          "shortDescription": "GMW-B5000TVA-1 Titanium Virtual Armour limited edition timepiece with mechanism.",
+          "rating": 3.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76876211_l.jpg"
         }
       ]
     },
@@ -212,39 +389,108 @@
       "categoryDescription": "Discover the latest and greatest smartphones in our extensive collection. Stay connected and informed with cutting-edge technology, sleek designs, and powerful features. Whether you're looking for a top-of-the-line flagship model or a budget-friendly option, we have a wide range of smartphones to suit your needs. ",
       "items": [
         {
-          "name": "Smartphone X",
-          "price": 1000,
-          "shortDescription": "Latest Smartphone X with amazing features.",
+          "name": "Iphone 12 PRO",
+          "color": "blue",
+          "price": 780,
+          "shortDescription": "Apple iPhone 12 64GB Black",
           "rating": 4.3,
-          "imageUrl": "https://i5.walmartimages.com/asr/13a41fc4-9541-43f5-a570-aac441f05a19_1.34ee2acd55369419919e101b037ed47a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+          "imageUrl": "https://m.media-amazon.com/images/I/71MHTD3uL4L._FMwebp__.jpg"
         },
         {
-          "name": "Smartphone Y",
-          "price": 900,
-          "shortDescription": "Affordable Smartphone Y with a great battery life.",
+          "name": "Iphone 11",
+          "color": "white",
+          "price": 389,
+          "shortDescription": "Apple iPhone 11 64GB Black",
           "rating": 4.2,
-          "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.KmvPqswLTsThygQdOCT21wHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://1.bp.blogspot.com/-oX2VC_Prnlw/X5qRzPoKhyI/AAAAAAAAJtE/7TpwMFppuboeWDxCKW_1GhQfogPqNc5_QCLcBGAsYHQ/s320/thumb_11Pro_2.jpg"
         },
         {
-          "name": "Smartphone Z",
-          "price": 800,
-          "shortDescription": "Smartphone Z with a stunning display.",
+          "name": "Iphone 14 pro max",
+          "color": "black",
+          "price": 1200,
+          "shortDescription": "Apple iPhone 14 64GB Black",
           "rating": 4.4,
-          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.Il-4jeXnX5sZ_NaR8KkHewHaID&pid=Api&P=0&h=180"
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/iphone%2014%20Pro%20Max/14-ProMax-Space-Black-620-6.png"
         },
         {
-          "name": "Smartphone A",
+          "name": "Samsung Galaxy s22",
+          "color": "black",
           "price": 700,
-          "shortDescription": "Budget-friendly Smartphone A with essential features.",
+          "shortDescription": "Samsung Galaxy 128GB Black",
           "rating": 4.1,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.CVBrT-g_iyY68Qztl_RdtgHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Samsung/Samsung%20Galaxy%20S23/S23%20ULTRa/620.620-GalaxyS23-ULTRA-BLA.png"
         },
         {
-          "name": "Smartphone B",
-          "price": 600,
-          "shortDescription": "Reliable Smartphone B with a powerful processor.",
+          "name": "Xiaomi 12",
+          "color": "black",
+          "price": 130,
+          "shortDescription": "Xiaomi 12 lite 5G 128 GB Black",
           "rating": 4.0,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.SLiUne1ul54PnVvMu1ksTwHaMG&pid=Api&P=0&h=180"
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%2012%20lite%205G/Xiaomi12Lite-Black.png"
+        },
+        {
+          "name": "Xiaomi Redmi ",
+          "color": "blue",
+          "price": 30,
+          "shortDescription": "Xiaomi Redmi A1 32 GB Blue",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%20Redmi%20A1/RedmiA1-Blue.png"
+        },
+        {
+          "name": "Apple iPad 10th Gen",
+          "color": "blue",
+          "price": 340,
+          "shortDescription": "Apple iPad 10th Gen (2022) 256 GB Blue",
+          "rating": 3.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tablets/Apple%20iPad%20(10th%20Gen)%202022/ipad-10th-gen-gallery1.png"
+        },
+        {
+          "name": "Samsung Galaxy Tab S8+",
+          "color": "black",
+          "price": 890,
+          "shortDescription": "Samsung Galaxy Tab S8+ 128 GB Black",
+          "rating": 4.7,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Samsung/Samsung%20Galaxy%20Tab%20S8%2B/125617.png"
+        },
+        {
+          "name": "Prestigio Q pro",
+          "color": "white",
+          "price": 30,
+          "shortDescription": "Prestigio Q Pro 16 GB Black",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Prestigio/Prestigio%20Q%20Pro/Prestigio-Q-Mini.png"
+        },
+        {
+          "name": "Lenovo Tab M10",
+          "color": "black",
+          "price": 30,
+          "shortDescription": "Lenovo Tab M10 Plus (3rd Gen)          ",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Lenovo/Lenovo%20Tab%20M10%20Plus%203rd%20Gen%2BCase%2BPen/Lenovo-6.png"
+        },
+        {
+          "name": "Iphone 14 + ",
+          "color": "blue",
+          "price": 830,
+          "shortDescription": "Iphone 14 plus 512 GB",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/iPhone%2014%20Plus/iPhone-14-Plus-Blue-620-620.png"
+        },
+        {
+          "name": "Prestigio Q pro",
+          "color": "white",
+          "price": 30,
+          "shortDescription": "Prestigio Q Pro 16 GB Black",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Prestigio/Prestigio%20Q%20Pro/Prestigio-Q-Mini.png"
+        },
+        {
+          "name": "Xiaomi Redmi ",
+          "color": "blue",
+          "price": 160,
+          "shortDescription": "Xiaomi Redmi A1 32 GB Blue",
+          "rating": 4.0,
+          "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%20Redmi%20A1/RedmiA1-Blue.png"
         }
       ]
     },
@@ -254,38 +500,115 @@
       "items": [
         {
           "name": "Leather Bag",
-          "price": 150,
-          "shortDescription": "Handmade leather bag with lots of space.",
+          "color": "black",
+          "price": 350,
+          "shortDescription": "The bag is crafted with polished pebble leather, with the two detachable straps.",
           "rating": 4.4,
-          "imageUrl": "https://www.worldsbest.com/uploads/styles/large/public/58/31434/1518087879.jpg?itok=eT4MhsyP"
+          "imageUrl": "https://www.cruisefashion.com/images/products/70161703_l.jpg"
         },
         {
-          "name": "Sports Bag",
-          "price": 100,
-          "shortDescription": "Convenient sports bag for your workout gear.",
-          "rating": 4.1,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.50uHc7dEfxXNiwGBimEbSgHaI_&pid=Api&P=0&h=180"
+          "name": "Leather Bag",
+          "color": "blue",
+          "price": 350,
+          "shortDescription": "The bag is crafted with polished pebble leather, with the two detachable straps.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70161720_l.jpg"
         },
         {
-          "name": "Backpack",
-          "price": 75,
-          "shortDescription": "Versatile backpack for school or work.",
-          "rating": 4.3,
-          "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.EuvWQ9nCCkj-kwy5lPkrSgHaHa&pid=Api&P=0&h=180"
+          "name": "Leather Bag",
+          "color": "white",
+          "price": 270,
+          "shortDescription": "The bag is crafted with polished pebble leather, with the two detachable straps.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70516669_l.jpg"
         },
         {
-          "name": "Handbag",
-          "price": 200,
-          "shortDescription": "Stylish handbag for any occasion.",
+          "name": "Luxury handbag",
+          "color": "white",
+          "price": 520,
+          "shortDescription": "Crafted in a smooth 100% Calfskin Leather exterior in a plain colour block",
           "rating": 4.6,
-          "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.casQIvzpxOxM0sjFp9EcqgHaHa&pid=Api&P=0&h=180"
+          "imageUrl": "https://www.cruisefashion.com/images/products/71606572_l.jpg"
         },
         {
-          "name": "Briefcase",
+          "name": "Luxury handbag",
+          "color": "black",
+          "price": 520,
+          "shortDescription": "Crafted in a smooth 100% Calfskin Leather exterior in a plain colour block",
+          "rating": 3.6,
+          "imageUrl": "https://www.cruisefashion.com/images/products/71606503_l.jpg"
+        },
+        {
+          "name": "Balenciaga Bag",
+          "color": "blue",
+          "price": 720,
+          "shortDescription": "This compact piece features a magnetic closure to the curved hourglass silhouette.",
+          "rating": 4.4,
+          "imageUrl": "https://www.cruisefashion.com/images/products/71612119_l.jpg"
+        },
+        {
+          "name": "Michael Cors Bag",
+          "color": "black",
           "price": 180,
-          "shortDescription": "Professional briefcase for business travel.",
-          "rating": 4.5,
-          "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.jJitcnqghN2yHIgmuZLICwHaHa&pid=Api&P=0&h=180"
+          "shortDescription": "Crafted in a cross-hatched saffiano leather construction with a removable leather shoulder strap",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/76875703_l.jpg"
+        },
+        {
+          "name": "Leather Bag",
+          "color": "white",
+          "price": 270,
+          "shortDescription": "Timeless minimalistic accessory to wear day or night for a luxury finish.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70630027_l.jpg"
+        },
+        {
+          "name": "Summer style handbag",
+          "color": "blue",
+          "price": 20,
+          "shortDescription": "Expertly crafted in the brand's signature denim, this piece features a detachable shoulder strap",
+          "rating": 3.3,
+          "imageUrl": "https://www.cruisefashion.com/images/products/72415818_l.jpg"
+        },
+        {
+          "name": "Luxury handbag",
+          "color": "white",
+          "price": 120,
+          "shortDescription": "Crafted in a smooth 100% Calfskin Leather exterior in a plain colour block",
+          "rating": 4.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/72191701_l.jpg"
+        },
+        {
+          "name": "Jacquemus Bag",
+          "color": "black",
+          "price": 140,
+          "shortDescription": "Crafted in Italy from a pure leather construction, this piece styles a magnetic flap over style.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/71479603_l.jpg"
+        },
+        {
+          "name": "Jacquemus Bag",
+          "color": "blue",
+          "price": 140,
+          "shortDescription": "Crafted in Italy from a pure leather construction, this piece styles a magnetic flap over style.",
+          "rating": 2.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/71479622_l.jpg"
+        },
+        {
+          "name": "Jacquemus Bag",
+          "color": "white",
+          "price": 180,
+          "shortDescription": "Crafted in Italy from a pure leather construction, this piece styles a magnetic flap over style.",
+          "rating": 3.2,
+          "imageUrl": "https://www.cruisefashion.com/images/products/71479620_l.jpg"
+        },
+        {
+          "name": "Luxury handbag",
+          "color": "black",
+          "price": 320,
+          "shortDescription": "A slim cross-body bag crafted in grained leather that is accented with the iconic vintage print.",
+          "rating": 4.8,
+          "imageUrl": "https://www.cruisefashion.com/images/products/70494103_l.jpg"
         }
       ]
     }
