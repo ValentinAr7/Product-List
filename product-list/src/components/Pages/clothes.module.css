@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+}
+
+.recommended {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.carouselContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+  padding: 1rem;
+}
+
+.carouselItem {
+  flex-basis: 20%;
+  padding: 0.5rem;
+}

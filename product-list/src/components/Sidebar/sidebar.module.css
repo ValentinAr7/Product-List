@@ -1,0 +1,12 @@
+.sidebar {
+  flex: 1;
+  padding: 1em;
+  border-right: 1px solid #ccc;
+  width: 600px;
+  height: 100vh;
+}
+
+h2,
+h3 {
+  margin-bottom: 0.5em;
+}

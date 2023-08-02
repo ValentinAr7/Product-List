@@ -1,15 +1,16 @@
+import { Link } from 'react-router-dom';
 import styles from './navigation.module.css';
 import data from '../../mockData.json';
 
-const Navigation = () => {
+const Subheading = () => {
   return (
     <div className={styles.header}>
       <div className={styles.subHeader}>
         {data.map((section, index) => {
           return (
-            <button key={index} className={styles.btn}>
-              {section.category}
-            </button>
+            <Link to={`/${section.category}`} key={index}>
+              <button className={styles.btn}>{section.category}</button>
+            </Link>
           );
         })}
       </div>
@@ -17,4 +18,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Subheading;

@@ -1,15 +1,29 @@
 import './App.css';
-import Categories from './components/Categories/Categories';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import RecommendedProducts from './components/Recommendations/Recomendations';
+import Categories from './components/Categories/Categories';
+import Clothes from './components/Pages/Clothes';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <RecommendedProducts />
-      <Categories />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <RecommendedProducts />
+                <Categories />
+              </div>
+            }
+          />
+          <Route path="/clothes" element={<Clothes />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

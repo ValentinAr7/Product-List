@@ -1,6 +1,6 @@
 import { FaSearch, FaUserCircle } from 'react-icons/fa';
 import styles from './header.module.css';
-import Navigation from '../Subheading/Navigation';
+import Subheading from '../Subheading/Subheading';
 
 const Header = () => {
   return (
@@ -25,7 +25,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navigation />
+      <Subheading />
     </div>
   );
 };
