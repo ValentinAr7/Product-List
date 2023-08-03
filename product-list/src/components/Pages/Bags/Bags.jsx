@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import MobileColorFilter from '../../Filtering/MobileColorFilter';
-import MobilePriceFilter from '../../Filtering/MobilePriceFilter';
 import ProductCard from '../../ProductCard/ProductCard';
 import { sections, mobileBreakPoint } from '../../Constants/constants';
 import Sidebar from '../../Sidebar/Sidebar';
 import Sorting from '../../Sorting/Sorting';
 import data from '../../../mockData.json';
 import styles from './bags.module.css';
+import PriceFilter from '../../Filtering/PriceFilter';
+import ColorFilter from '../../Filtering/ColorFilter';
 
 const Bags = () => {
   const bagsData = data.find(section => section.category === 'Bags');
@@ -22,7 +22,17 @@ const Bags = () => {
     other: false,
   });
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [selectedPrices, setSelectedPrices] = useState({
+    50: false,
+    150: false,
+    300: false,
+    500: false,
+    1000: false,
+  });
+
+  const [isMobile, setIsMobile] = useState(
+    window.innerWidth <= mobileBreakPoint.breakPoint,
+  );
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,14 +45,6 @@ const Bags = () => {
     };
   }, []);
 
-  const [selectedPrices, setSelectedPrices] = useState({
-    50: false,
-    150: false,
-    300: false,
-    500: false,
-    1000: false,
-  });
-
   const handleColorChange = event => {
     setSelectedColors({
       ...selectedColors,
@@ -54,20 +56,6 @@ const Bags = () => {
     setSelectedPrices({
       ...selectedPrices,
       [event.target.value]: event.target.checked,
-    });
-  };
-
-  const handleColorChangeMobile = event => {
-    setSelectedColors({
-      ...selectedColors,
-      [event.target.value]: true,
-    });
-  };
-
-  const handlePriceChangeMobile = event => {
-    setSelectedColors({
-      ...selectedColors,
-      [event.target.value]: true,
     });
   };
 
@@ -136,8 +124,8 @@ const Bags = () => {
 
           {isMobile ? (
             <div className={styles.filterContainer}>
-              <MobileColorFilter handleColorChange={handleColorChangeMobile} />
-              <MobilePriceFilter handlePriceChange={handlePriceChangeMobile} />
+              <ColorFilter handleColorChange={handleColorChange} />
+              <PriceFilter handlePriceChange={handlePriceChange} />
             </div>
           ) : (
             ''

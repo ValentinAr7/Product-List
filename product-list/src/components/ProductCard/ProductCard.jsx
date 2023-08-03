@@ -14,12 +14,18 @@ const ProductCard = ({ product }) => {
     showSuccessNotification('Item has been successfully added to the cart');
   };
 
+  const cuttedDescription = (input, length) => {
+    return input.length > length ? `${input.substring(0, length)}...` : input;
+  };
+
   return (
     <div className={styles.card}>
       <img variant="top" className={styles.cardImg} src={product.imageUrl} />
       <div className={styles.cardContent}>
         <h3 className={styles.productTitle}>{product.name.toUpperCase()}</h3>
-        <p className={styles.description}>{product.shortDescription}</p>
+        <p className={styles.description}>
+          {cuttedDescription(product.shortDescription, 50)}
+        </p>
         <div className={styles.addToCart}>
           <button className={styles.btn} onClick={handleAddToCart}>
             Add to bag <FaShoppingCart className={styles.shoppingCart} />

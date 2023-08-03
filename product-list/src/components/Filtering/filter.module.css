@@ -31,3 +31,17 @@ option {
 .title {
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 33%;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    margin-bottom: 0;
+    font-style: italic;
+  }
+}

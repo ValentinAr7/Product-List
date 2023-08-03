@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import ProductCard from '../../ProductCard/ProductCard';
-import MobileColorFilter from '../../Filtering/MobileColorFilter';
-import MobilePriceFilter from '../../Filtering/MobilePriceFilter';
 import { sections, mobileBreakPoint } from '../../Constants/constants';
 import styles from './shoes.module.css';
 import data from '../../../mockData.json';
 import Sidebar from '../../Sidebar/Sidebar';
 import Sorting from '../../Sorting/Sorting';
+import ColorFilter from '../../Filtering/ColorFilter';
+import PriceFilter from '../../Filtering/PriceFilter';
 
 const Shoes = () => {
   const shoesData = data.find(section => section.category === 'Shoes');
@@ -124,8 +124,8 @@ const Shoes = () => {
 
           {isMobile ? (
             <div className={styles.filterContainer}>
-              <MobileColorFilter handleColorChange={handleColorChange} />
-              <MobilePriceFilter handlePriceChange={handlePriceChange} />
+              <ColorFilter handleColorChange={handleColorChange} />
+              <PriceFilter handlePriceChange={handlePriceChange} />
             </div>
           ) : (
             ''
