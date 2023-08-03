@@ -102,6 +102,10 @@ const Clothes = () => {
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />
+
+          <div className={styles.productCounter}>
+            {`Showing ${visibleProducts} out of ${sortedClothesItems.length} products`}
+          </div>
         </div>
         <div className={styles.carouselContainer}>
           {filteredClothesItems

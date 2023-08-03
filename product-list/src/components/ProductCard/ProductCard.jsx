@@ -1,11 +1,18 @@
 import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import styles from './productCard.module.css';
+import Notification, {
+  showSuccessNotification,
+} from '../Notifications/Notifications';
 
 const ProductCard = ({ product }) => {
   const stars = Array.from({ length: 5 }, (_, i) =>
     i < product.rating ? '★' : '☆',
   );
+
+  const handleAddToCart = () => {
+    showSuccessNotification('Item has been successfully added to the cart');
+  };
 
   return (
     <div className={styles.card}>
@@ -14,8 +21,8 @@ const ProductCard = ({ product }) => {
         <h3 className={styles.productTitle}>{product.name.toUpperCase()}</h3>
         <p className={styles.description}>{product.shortDescription}</p>
         <div className={styles.addToCart}>
-          <button className={styles.btn}>
-            Add to bag <FaShoppingCart className={styles.shoppingCart} />{' '}
+          <button className={styles.btn} onClick={handleAddToCart}>
+            Add to bag <FaShoppingCart className={styles.shoppingCart} />
           </button>
           <p className={styles.price}> ${product.price}</p>
         </div>
@@ -28,6 +35,7 @@ const ProductCard = ({ product }) => {
           ))}
         </div>
       </div>
+      <Notification />
     </div>
   );
 };

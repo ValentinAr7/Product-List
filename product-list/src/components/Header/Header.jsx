@@ -1,9 +1,12 @@
 import { useState } from 'react';
-import { FaSearch, FaUserCircle } from 'react-icons/fa';
+import { FaSearch, FaUserCircle, FaShoppingCart } from 'react-icons/fa';
 import styles from './header.module.css';
 import Subheading from '../Subheading/Subheading';
 import data from '../../mockData.json';
 import { logo } from '../Constants/constants';
+import Notification, {
+  showSuccessNotification,
+} from '../Notifications/Notifications';
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -19,6 +22,10 @@ const Header = () => {
         ),
       )
     : [];
+
+  const handleAddToCart = () => {
+    showSuccessNotification('Item has been successfully added to the cart');
+  };
 
   return (
     <div className={styles.container}>
@@ -47,7 +54,9 @@ const Header = () => {
                       className={styles.itemImage}
                     />
                     <span>{item.name}</span>
-                    <button className={styles.button}>Add to Cart</button>
+                    <button className={styles.button} onClick={handleAddToCart}>
+                      Add to Cart
+                    </button>
                   </div>
                 ))}
               </div>
@@ -55,11 +64,13 @@ const Header = () => {
           </div>
 
           <div className={styles.profile}>
+            <FaShoppingCart />
             <FaUserCircle />
           </div>
         </div>
       </div>
       <Subheading />
+      <Notification />
     </div>
   );
 };

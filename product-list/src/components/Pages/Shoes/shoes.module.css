@@ -51,5 +51,10 @@
   border-color: var(--borders-color);
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
-  margin-bottom: 50%;
+  margin-bottom: 80%;
+}
+
+.productCounter {
+  font-size: 18;
+  margin-top: 10px;
 }

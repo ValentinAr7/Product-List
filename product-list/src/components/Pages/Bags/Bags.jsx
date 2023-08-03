@@ -102,6 +102,10 @@ const Watches = () => {
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />
+
+          <div className={styles.productCounter}>
+            {`Showing ${visibleProducts} out of ${sortedbagsItems.length} products`}
+          </div>
         </div>
         <div className={styles.carouselContainer}>
           {filteredbagsItems.slice(0, visibleProducts).map((product, index) => (
