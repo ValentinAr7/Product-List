@@ -1,6 +1,6 @@
 .sidebar {
   padding: 1em;
-  border-right: 1.5px solid #ccc;
+  border-right: 1.5px solid var(--borders-color);
   width: 200px;
   height: 100%;
 }
@@ -12,6 +12,6 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   .sidebarMobile {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid var(--borders-color);
   }
 }

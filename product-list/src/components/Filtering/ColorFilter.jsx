@@ -1,5 +1,5 @@
-import styles from './filter.module.css';
 import { filterColors } from '../Constants/constants';
+import styles from './filter.module.css';
 
 const ColorFilter = ({ handleColorChange }) => {
   return (

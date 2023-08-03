@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
-
-import ProductCard from '../../ProductCard/ProductCard';
 import { sections, mobileBreakPoint } from '../../Constants/constants';
-import styles from './phones.module.css';
-import data from '../../../mockData.json';
-import Sidebar from '../../Sidebar/Sidebar';
-import Sorting from '../../Sorting/Sorting';
+import ProductCard from '../../ProductCard/ProductCard';
 import ColorFilter from '../../Filtering/ColorFilter';
 import PriceFilter from '../../Filtering/PriceFilter';
+import Sidebar from '../../Sidebar/Sidebar';
+import Sorting from '../../Sorting/Sorting';
+import styles from './phones.module.css';
+import data from '../../../mockData.json';
 
 const Phones = () => {
   const phonesData = data.find(section => section.category === 'Phones');

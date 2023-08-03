@@ -1,7 +1,6 @@
-import React from 'react';
+import ProductCard from '../ProductCard/ProductCard';
 import styles from './recomendations.module.css';
 import data from '../../mockData.json';
-import ProductCard from '../ProductCard/ProductCard';
 
 const RecommendedProducts = () => {
   const recommendedProducts = data.map(section => section.items[0]);

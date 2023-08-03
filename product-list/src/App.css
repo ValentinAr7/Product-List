@@ -1,12 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: azure;
-  }
-  
-  :root {
-    --primary-color: #141920;
-    --secondary-color: #445165;
-    --white-color: white;
-    --borders-color: #ccc;
-    }
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+
+:root {
+  --primary-color: #141920;
+  --secondary-color: #445165;
+  --white-color: white;
+  --borders-color: #ccc;
+  --stars-color: rgb(170, 138, 20);
+}

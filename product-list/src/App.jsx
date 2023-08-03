@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-
 import RecommendedProducts from './components/Recommendations/Recomendations';
 import Header from './components/Header/Header';
 import PrivacyPolicies from './components/Pages/PrivacyPolicies/PrivacyPolicies';

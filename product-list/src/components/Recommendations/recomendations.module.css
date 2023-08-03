@@ -74,7 +74,7 @@
 }
 
 .star {
-  color: rgb(170, 138, 20);
+  color: var(--stars-color);
   margin-right: 4px;
   font-size: 30px;
 }

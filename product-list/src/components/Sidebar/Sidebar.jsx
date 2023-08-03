@@ -1,4 +1,3 @@
-import React from 'react';
 import ColorFilter from '../Filtering/ColorFilter';
 import PriceFilter from '../Filtering/PriceFilter';
 import styles from './sidebar.module.css';

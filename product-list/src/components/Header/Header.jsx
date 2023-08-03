@@ -1,12 +1,13 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaSearch, FaUserCircle, FaShoppingCart } from 'react-icons/fa';
-import styles from './header.module.css';
 import Subheading from '../Subheading/Subheading';
-import data from '../../mockData.json';
 import { logo } from '../Constants/constants';
 import Notification, {
   showSuccessNotification,
 } from '../Notifications/Notifications';
+import styles from './header.module.css';
+import data from '../../mockData.json';
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -32,7 +33,9 @@ const Header = () => {
       <div className={styles.headerSection}>
         <div className={styles.header}>
           <div className={styles.logo}>
-            <p>{logo.logo}</p>
+            <Link to="/" className={styles.link}>
+              <p>{logo.logo}</p>
+            </Link>{' '}
           </div>
 
           <div className={styles.search}>

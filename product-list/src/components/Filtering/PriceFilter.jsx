@@ -1,5 +1,5 @@
-import styles from './filter.module.css';
 import { filterPrices } from '../Constants/constants';
+import styles from './filter.module.css';
 
 const PriceFilter = ({ handlePriceChange = {} }) => {
   return (
