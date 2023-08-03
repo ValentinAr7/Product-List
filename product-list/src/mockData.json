@@ -392,7 +392,7 @@
           "name": "Iphone 12 PRO",
           "color": "blue",
           "price": 780,
-          "shortDescription": "Apple iPhone 12 64GB Black",
+          "shortDescription": "Apple iPhone 12 64GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.3,
           "imageUrl": "https://m.media-amazon.com/images/I/71MHTD3uL4L._FMwebp__.jpg"
         },
@@ -400,7 +400,7 @@
           "name": "Iphone 11",
           "color": "white",
           "price": 389,
-          "shortDescription": "Apple iPhone 11 64GB Black",
+          "shortDescription": "Apple iPhone 12 64GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.2,
           "imageUrl": "https://1.bp.blogspot.com/-oX2VC_Prnlw/X5qRzPoKhyI/AAAAAAAAJtE/7TpwMFppuboeWDxCKW_1GhQfogPqNc5_QCLcBGAsYHQ/s320/thumb_11Pro_2.jpg"
         },
@@ -408,7 +408,7 @@
           "name": "Iphone 14 pro max",
           "color": "black",
           "price": 1200,
-          "shortDescription": "Apple iPhone 14 64GB Black",
+          "shortDescription": "Apple iPhone 12 64GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.4,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/iphone%2014%20Pro%20Max/14-ProMax-Space-Black-620-6.png"
         },
@@ -416,7 +416,7 @@
           "name": "Samsung Galaxy s22",
           "color": "black",
           "price": 700,
-          "shortDescription": "Samsung Galaxy 128GB Black",
+          "shortDescription": "Samsung Galaxy 64GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.1,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Samsung/Samsung%20Galaxy%20S23/S23%20ULTRa/620.620-GalaxyS23-ULTRA-BLA.png"
         },
@@ -424,7 +424,7 @@
           "name": "Xiaomi 12",
           "color": "black",
           "price": 130,
-          "shortDescription": "Xiaomi 12 lite 5G 128 GB Black",
+          "shortDescription": "Xiaomi 12 lite 5G 128 GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%2012%20lite%205G/Xiaomi12Lite-Black.png"
         },
@@ -432,7 +432,7 @@
           "name": "Xiaomi Redmi ",
           "color": "blue",
           "price": 30,
-          "shortDescription": "Xiaomi Redmi A1 32 GB Blue",
+          "shortDescription": "Xiaomi Redmi A1 32 GB Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%20Redmi%20A1/RedmiA1-Blue.png"
         },
@@ -440,15 +440,15 @@
           "name": "Apple iPad 10th Gen",
           "color": "blue",
           "price": 340,
-          "shortDescription": "Apple iPad 10th Gen (2022) 256 GB Blue",
+          "shortDescription": "Apple iPad 10th Gen (2022) 256 GB  Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 3.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tablets/Apple%20iPad%20(10th%20Gen)%202022/ipad-10th-gen-gallery1.png"
         },
         {
-          "name": "Samsung Galaxy Tab S8+",
+          "name": "Samsung Galaxy S8+",
           "color": "black",
           "price": 890,
-          "shortDescription": "Samsung Galaxy Tab S8+ 128 GB Black",
+          "shortDescription": "Samsung Galaxy Tab S8+ 128 GB Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.7,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Samsung/Samsung%20Galaxy%20Tab%20S8%2B/125617.png"
         },
@@ -456,7 +456,7 @@
           "name": "Prestigio Q pro",
           "color": "white",
           "price": 30,
-          "shortDescription": "Prestigio Q Pro 16 GB Black",
+          "shortDescription": "Prestigio Q Pro 16 GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Prestigio/Prestigio%20Q%20Pro/Prestigio-Q-Mini.png"
         },
@@ -464,7 +464,7 @@
           "name": "Lenovo Tab M10",
           "color": "black",
           "price": 30,
-          "shortDescription": "Lenovo Tab M10 Plus (3rd Gen)          ",
+          "shortDescription": "Lenovo Tab M10 Plus (3rd Gen) Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Lenovo/Lenovo%20Tab%20M10%20Plus%203rd%20Gen%2BCase%2BPen/Lenovo-6.png"
         },
@@ -472,7 +472,7 @@
           "name": "Iphone 14 + ",
           "color": "blue",
           "price": 830,
-          "shortDescription": "Iphone 14 plus 512 GB",
+          "shortDescription": "Iphone 14 plus 512 GB Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/iPhone%2014%20Plus/iPhone-14-Plus-Blue-620-620.png"
         },
@@ -480,7 +480,7 @@
           "name": "Prestigio Q pro",
           "color": "white",
           "price": 30,
-          "shortDescription": "Prestigio Q Pro 16 GB Black",
+          "shortDescription": "Prestigio Q Pro 16 GB Black Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Tableti/Prestigio/Prestigio%20Q%20Pro/Prestigio-Q-Mini.png"
         },
@@ -488,7 +488,7 @@
           "name": "Xiaomi Redmi ",
           "color": "blue",
           "price": 160,
-          "shortDescription": "Xiaomi Redmi A1 32 GB Blue",
+          "shortDescription": "Xiaomi Redmi A1 32 GB Blue Retina XDR display 6.1‑inch all‑screen OLED display",
           "rating": 4.0,
           "imageUrl": "https://media.a1.bg/newsite2018/private/img/images/devices-new-eshop/Xiaomi/Xiaomi%20Redmi%20A1/RedmiA1-Blue.png"
         }
