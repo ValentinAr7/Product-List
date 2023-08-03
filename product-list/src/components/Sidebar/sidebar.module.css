@@ -1,11 +1,17 @@
 .sidebar {
   padding: 1em;
   border-right: 1px solid #ccc;
-  width: 400px;
+  width: 220px;
   height: 100vh;
 }
 
 h2,
 h3 {
   margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebarMobile {
+    border-right: 1px solid #ccc;
+  }
 }

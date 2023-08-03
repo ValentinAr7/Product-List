@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
+import MobileColorFilter from '../../Filtering/MobileColorFilter';
+import MobilePriceFilter from '../../Filtering/MobilePriceFilter';
 import ProductCard from '../../ProductCard/ProductCard';
-import styles from './bags.module.css';
-import data from '../../../mockData.json';
+import { sections, mobileBreakPoint } from '../../Constants/constants';
 import Sidebar from '../../Sidebar/Sidebar';
 import Sorting from '../../Sorting/Sorting';
-import { sections } from '../../Constants/constants';
+import data from '../../../mockData.json';
+import styles from './bags.module.css';
 
-const Watches = () => {
+const Bags = () => {
   const bagsData = data.find(section => section.category === 'Bags');
   const bagsItems = bagsData.items;
   const categoryDescription = bagsData.categoryDescription;
@@ -19,6 +21,19 @@ const Watches = () => {
     white: false,
     other: false,
   });
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= mobileBreakPoint.breakPoint);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const [selectedPrices, setSelectedPrices] = useState({
     50: false,
@@ -39,6 +54,20 @@ const Watches = () => {
     setSelectedPrices({
       ...selectedPrices,
       [event.target.value]: event.target.checked,
+    });
+  };
+
+  const handleColorChangeMobile = event => {
+    setSelectedColors({
+      ...selectedColors,
+      [event.target.value]: true,
+    });
+  };
+
+  const handlePriceChangeMobile = event => {
+    setSelectedColors({
+      ...selectedColors,
+      [event.target.value]: true,
     });
   };
 
@@ -91,10 +120,12 @@ const Watches = () => {
 
   return (
     <div className={styles.container}>
-      <Sidebar
-        handleColorChange={handleColorChange}
-        handlePriceChange={handlePriceChange}
-      />
+      <div className={isMobile ? styles.hideMobile : ''}>
+        <Sidebar
+          handleColorChange={handleColorChange}
+          handlePriceChange={handlePriceChange}
+        />
+      </div>
       <div className={styles.recommended}>
         <div className={styles.sortingContainer}>
           <div className={styles.productDescription}>
@@ -102,6 +133,15 @@ const Watches = () => {
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />
+
+          {isMobile ? (
+            <div className={styles.filterContainer}>
+              <MobileColorFilter handleColorChange={handleColorChangeMobile} />
+              <MobilePriceFilter handlePriceChange={handlePriceChangeMobile} />
+            </div>
+          ) : (
+            ''
+          )}
 
           <div className={styles.productCounter}>
             {`Showing ${visibleProducts} out of ${sortedbagsItems.length} products`}
@@ -128,4 +168,4 @@ const Watches = () => {
     </div>
   );
 };
-export default Watches;
+export default Bags;

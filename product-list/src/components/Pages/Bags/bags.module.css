@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  margin-bottom: 10%;
 }
 
 .recommended {
@@ -57,4 +58,36 @@
 .productCounter {
   font-size: 18;
   margin-top: 10px;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .hideMobile {
+    display: none;
+  }
+
+  .recommended {
+    width: 90%;
+  }
+
+  .carouselContainer {
+    display: block;
+  }
+
+  .carouselItem {
+    flex-basis: 20%;
+    margin-bottom: 6%;
+  }
+
+  .sortingContainer {
+    width: 100%;
+  }
+
+  .description {
+    text-align: justify;
+  }
 }

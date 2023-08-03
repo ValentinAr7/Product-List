@@ -16,3 +16,7 @@ option {
   background-color: #fff;
   color: #333;
 }
+
+.title {
+  margin-bottom: 0;
+}

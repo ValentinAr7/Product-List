@@ -1,4 +1,5 @@
 import styles from './terms&conditions.module.css';
+
 const Terms = () => {
   return (
     <div className={styles.container}>

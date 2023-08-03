@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
+import MobileColorFilter from '../../Filtering/MobileColorFilter';
+import MobilePriceFilter from '../../Filtering/MobilePriceFilter';
 import ProductCard from '../../ProductCard/ProductCard';
+import { sections, mobileBreakPoint } from '../../Constants/constants';
 import styles from './clothes.module.css';
 import data from '../../../mockData.json';
 import Sidebar from '../../Sidebar/Sidebar';
 import Sorting from '../../Sorting/Sorting';
-import { sections } from '../../Constants/constants';
 
 const Clothes = () => {
   const clothesData = data.find(section => section.category === 'Clothes');
@@ -27,6 +29,21 @@ const Clothes = () => {
     500: false,
     1000: false,
   });
+
+  const [isMobile, setIsMobile] = useState(
+    window.innerWidth <= mobileBreakPoint.breakPoint,
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= mobileBreakPoint.breakPoint);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleColorChange = event => {
     setSelectedColors({
@@ -91,10 +108,12 @@ const Clothes = () => {
 
   return (
     <div className={styles.container}>
-      <Sidebar
-        handleColorChange={handleColorChange}
-        handlePriceChange={handlePriceChange}
-      />
+      <div className={isMobile ? styles.hideMobile : ''}>
+        <Sidebar
+          handleColorChange={handleColorChange}
+          handlePriceChange={handlePriceChange}
+        />
+      </div>
       <div className={styles.recommended}>
         <div className={styles.sortingContainer}>
           <div className={styles.productDescription}>
@@ -102,6 +121,15 @@ const Clothes = () => {
             <p className={styles.description}>{categoryDescription}</p>
           </div>
           <Sorting handleSortChange={handleSortChange} />
+
+          {isMobile ? (
+            <div className={styles.filterContainer}>
+              <MobileColorFilter handleColorChange={handleColorChange} />
+              <MobilePriceFilter handlePriceChange={handlePriceChange} />
+            </div>
+          ) : (
+            ''
+          )}
 
           <div className={styles.productCounter}>
             {`Showing ${visibleProducts} out of ${sortedClothesItems.length} products`}

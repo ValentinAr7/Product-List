@@ -23,3 +23,7 @@ export const sections = {
 export const logo = {
     logo: "C4 Nexus"
 }
+
+export const mobileBreakPoint = {
+    breakPoint: "768"
+}

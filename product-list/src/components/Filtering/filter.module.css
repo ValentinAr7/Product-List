@@ -1,12 +1,33 @@
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
 .checkboxContainer {
-    padding: 6px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+  padding: 6px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
+.dropdown {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition:
+    border-bottom 0.5s,
+    box-shadow 0.5s;
+}
+
+option {
+  background-color: #fff;
+  color: #333;
+}
+
+.title {
+  margin-bottom: 0;
+}
