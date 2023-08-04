@@ -1,4 +1,11 @@
-#Product Listing-Page
+# Product Listing-Page
+
+- [Summary](#summary)
+- [Header](#header)
+- [Sidebar](#sidebar)
+- [Middle Part](#middle-part)
+- [Footer](#footer)
+- [Installation](#installation)
 
 ### Summary
 
@@ -11,20 +18,20 @@ The project has been built using a number of development tools to ensure high-qu
 - ESLint: A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.
 - React Librairies - react-dom, react-router-dom, react-icons and react-toastify.
 
-The application consists of 4 main sections:
-
 ![Application full-view](product-list/src/assets/Images/FullView.PNG)
 ![Application Mobile-view](product-list/src/assets/Images/MobileView1.PNG)
 ![Application Mobile-view2](product-list/src/assets/Images/MobileView2.PNG)
 
+The application consists of 4 main sections - header, sidebar, middle part and footer
+
 ### Header
 
-    Positioned at the top of the application it includes a header section and subheader/navigation. It is sticky and is always on display.
+Positioned at the top of the application it includes a header section and subheader/navigation. It is sticky and is always on display.
 
-    * Header - splitted into 3 parts - logo, search bar and icons.
-    Search Bar: Located in the middle of the header, the search bar provides functionality which allows the users to find the products they're looking for. As users type something, the application checks for matches within the json product file. It then displays these matching products, complete with their images, names, and an 'Add to Cart' button, enabling users to add the product to the cart. When the button is cilcked a notification pops up at the right top corner. This interactive feature enhances the user experience by providing quick, efficient access to the desired products.
+- Header - splitted into 3 parts - logo, search bar and icons.
+  Search Bar: Located in the middle of the header, the search bar provides functionality which allows the users to find the products they're looking for. As users type something, the application checks for matches within the json product file. It then displays these matching products, complete with their images, names, and an 'Add to Cart' button, enabling users to add the product to the cart. When the button is cilcked a notification pops up at the right top corner. This interactive feature enhances the user experience by providing quick, efficient access to the desired products.
 
-    * Subheader/Navigation - It includes 5 buttons to navigate through the application.
+- Subheader/Navigation - It includes 5 buttons to navigate through the application.
 
 ![Application Header](product-list/src/assets/Images/Header.PNG)
 ![Application Searchbar](product-list/src/assets/Images/SearchBar.PNG)
@@ -45,27 +52,27 @@ The price filter, on the other hand, allows users to define a price range that s
 
 The Middle Part of our application forms the core of the user's browsing experience. Here, users are presented with a variety of features designed to enhance their interaction with the product list.
 
-Title Category: This displays the name of the product category the user is currently viewing.
+- Title Category: This displays the name of the product category the user is currently viewing.
 
-Description: This is a brief text that provides more context about the chosen category. It helps users understand what kinds of products they can expect in this section.
-![Application full-view](product-list/src/assets/Images/FullView.PNG)
-![Application Mobile-view](product-list/src/assets/Images/MobileView1.PNG)
+- Description: This is a brief text that provides more context about the chosen category. It helps users understand what kinds of products they can expect in this section.
+  ![Application full-view](product-list/src/assets/Images/FullView.PNG)
+  ![Application Mobile-view](product-list/src/assets/Images/MobileView1.PNG)
 
-Sorting Mechanism: To improve usability, a sorting mechanism is included. This allows users to arrange the displayed products based on product name - A-Z / Z-A and price low-to-high and high-to-low.
-![Application Sorting](product-list/src/assets/Images/Sorting.PNG)
+- Sorting Mechanism: To improve usability, a sorting mechanism is included. This allows users to arrange the displayed products based on product name - A-Z / Z-A and price low-to-high and high-to-low.
+  ![Application Sorting](product-list/src/assets/Images/Sorting.PNG)
 
-Product Counter: This is a small informative feature that shows the number of displayed products out of the total number in the category for example 'Showing 8 of 16 products'.
-![Application Sorting](product-list/src/assets/Images/Sorting.PNG)
+- Product Counter: This is a small informative feature that shows the number of displayed products out of the total number in the category for example 'Showing 8 of 16 products'.
+  ![Application Sorting](product-list/src/assets/Images/Sorting.PNG)
 
-Product Cards: These are the visual representation of each product. They usually contain an image of the product, its name, price, a brief description and rating. They provide a snapshot of what the product offers.
-![Application Product Card](product-list/src/assets/Images/productCard.PNG)
+- Product Cards: These are the visual representation of each product. They usually contain an image of the product, its name, price, a brief description and rating. They provide a snapshot of what the product offers.
+  ![Application Product Card](product-list/src/assets/Images/productCard.PNG)
 
-Load More Button: When clicked, it loads more product cards, if available, giving the users the option to explore more products within the category.
-It is important to mention that each page when is loaded displays 8 items. In order to see more the 'Load more' button should be pressed to load another row of 4 products until all products are displayed.
-![Application Load More Button](product-list/src/assets/Images/LoadMoreButton.PNG)
+- Load More Button: When clicked, it loads more product cards, if available, giving the users the option to explore more products within the category.
+  It is important to mention that each page when is loaded displays 8 items. In order to see more the 'Load more' button should be pressed to load another row of 4 products until all products are displayed.
+  ![Application Load More Button](product-list/src/assets/Images/LoadMoreButton.PNG)
 
-Notifications: When user clicks 'Add to cart' button a notification pops up in the right top corner notifying us that the product is succesfully added to the shopping cart.
-![Application Notification](product-list/src/assets/Images/Notification.PNG)
+- Notifications: When user clicks 'Add to cart' button a notification pops up in the right top corner notifying us that the product is succesfully added to the shopping cart.
+  ![Application Notification](product-list/src/assets/Images/Notification.PNG)
 
 All these features in the Middle Part work together to provide a comprehensive, flexible, and engaging browsing experience, keeping users informed and in control as they explore the various products on offer.
 
@@ -73,9 +80,7 @@ All these features in the Middle Part work together to provide a comprehensive, 
 
 Found at the bottom of our application, the Footer offers additional information and links to T&C, Privacy Policy and Contact page. It is sticky and is always on display.
 
-### Instalation
-
-### Steps
+### Installation Steps
 
 Clone the Repository: First, clone the repository to your local machine using the command `git clone https://github.com/ValentinAr7/Product-List.git` or clone the repo using a UI app like GitHub Desktop.
 
