@@ -9,8 +9,8 @@
 
 .card {
   position: relative;
-  width: 450px;
-  height: 450px;
+  width: 30%;
+  height: 400px;
   background: url('https://indiater.com/wp-content/uploads/2019/05/1.jpg')
     no-repeat center center;
   background-size: cover;
@@ -57,4 +57,16 @@
 
 .button:hover {
   background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 }
