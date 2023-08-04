@@ -5,7 +5,7 @@
 - [Sidebar](#sidebar)
 - [Middle Part](#middle-part)
 - [Footer](#footer)
-- [Installation](#installation)
+- [Installation Steps](#installation)
 
 ### Summary
 
